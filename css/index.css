@@ -413,6 +413,7 @@ h1,h2,h3,h4,h5{
     color: navy;
     font-size: 20px;
     margin-top: 5px;
+    position: relative;
 }
 .abt_cont_itm_ans a{
     text-decoration: none;
@@ -422,4 +423,32 @@ h1,h2,h3,h4,h5{
 }
 .abt_cont_itm_ans a:hover{
     text-decoration: underline;
+}
+
+.txt_area_drp{
+    height: 150px;
+    width: 85%;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: segoe ui;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+.abt_drp_send{
+    position: absolute;
+    bottom: 5px;
+    right: 6%;
+    background-color: crimson;
+    color: white;
+    padding: 3px 25px;
+    font-size: 16px;
+    z-index: 100;
+}
+.abt_drp_send:hover{
+    cursor: pointer;
+    background-color: navy;
+}
+.txt_area_drp:focus{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }

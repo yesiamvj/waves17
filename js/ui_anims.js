@@ -26,3 +26,32 @@ function init_ht(){
 function endLoad(){
     $('.Loading_Page').fadeOut();
 }
+
+function startLoad(txt){
+    $('.Loading_Page').fadeIn();
+    $('.Loading_Page .LP_Txt').text(txt);
+}
+function loadTxt(txt){
+    $('.Loading_Page .LP_Txt').text(txt);
+}
+
+function sendMyQue(){
+    startLoad("Sending your Message...");
+    $.ajax({
+     method:"POST",
+     url:"inst_mail.php",
+     data:{
+         q:$('#inst_cont_txt').val()
+     },
+        success: function (data, textStatus, jqXHR) {
+            if(data.indexOf("SUXCS")>-1){
+                loadTxt("Success ! We will get back to you .");
+            }
+            else{
+                loadTxt("Please Try Again");
+            }
+            setTimeout(endLoad,750);
+        }
+     
+    });
+}
