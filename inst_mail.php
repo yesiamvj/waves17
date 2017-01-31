@@ -7,7 +7,7 @@
             
             $q=$_REQUEST['q'];
             
-            $to="thevjcode@gmail.com";
+            $to="info@waves.org.in";
             $subject="Enquiry from Waves.org.in";
             $message=" Message : $q";
             
