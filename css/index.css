@@ -5,6 +5,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color:whitesmoke;
     font-family: segoe ui;
 }
 .Loading_Page{
@@ -451,4 +452,122 @@ h1,h2,h3,h4,h5{
 }
 .txt_area_drp:focus{
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.fixLink{
+    position: fixed;
+    right: 2%;
+    bottom: 25px;
+    z-index: 100;
+}
+.fixLinkInr{
+    position: relative;
+}
+.fixLinkInr a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.fixLinkDD{
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    min-width: 135px;
+    padding: 5px;
+    display: none;
+}
+a .fixLinkItm{
+    color: black;
+    text-decoration: none;
+}
+.fixLink:hover .fixLinkDD{
+    display: block;
+}
+.fixLinkItm{
+    text-align: right;
+    padding:7px 15px 15px;
+    border-bottom: 1px dotted silver; 
+    background-color: white;
+    margin-bottom: -5px;
+    font-size: 14px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+}
+.fixLinkItm:hover{
+    cursor: pointer;
+    background-color:navy;
+}
+a .fixLinkItm:hover {
+    color: white;
+}
+.fixLinkItm:last-child{
+    border-bottom: none;
+}
+@media only screen and (max-width:900px){
+    body{
+        background-size:100% auto;
+        background-attachment: fixed;
+        background-position-y: 0px;
+    }
+    .page_header{
+        margin-top: 210px;
+    }
+    .pfloat_bubble_out{
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+    }
+    .pfb_inr{
+        display: inline-block;
+    }
+    #bub_days .pfb_inr{
+        transform: rotate(-40deg);
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .page_high_txt .phtm_itm{
+        font-size: 20px;
+        color: navy;
+        
+    }
+    .page_high_txt{
+         background-color: rgba(256,256,256,0.95);
+         min-height: 80px;
+    }
+    .pfloat_contnt{
+        position:static;
+        margin-top: 70px;
+    }
+    .pfloat_contnt>div{
+        display: block;
+    }
+    .abt_contnr{
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+    .page-footr{
+        font-size: 16px !important;;
+        z-index: 100;
+        text-align:center;
+        position: static;
+    }
+ 
+    .page_big_conts{
+        margin-top: 75px;
+         background-color: rgba(256,256,256,0.1);
+    }
+    .page_fix_logos{
+          background-color: rgba(256,256,256,0.75);
+    }
+    .page_header{
+        padding-top: 20px;
+          background-color: rgba(256,256,256,0.95);
+ 
+    }
+    .page-footr .pftr_lft{
+        margin-bottom: 50px;
+        line-height: 2;
+    }
+    
+    
+    .pftr_right{
+        float: none;
+    }
 }
