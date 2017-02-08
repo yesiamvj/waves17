@@ -500,6 +500,44 @@ a .fixLinkItm:hover {
 .fixLinkItm:last-child{
     border-bottom: none;
 }
+.workshop_temp{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+    display: none;
+}
+#bub_wrkshp:hover{
+    cursor: pointer;
+    transform:rotate(21deg) !important;;
+}
+.workshop_inr{
+    text-align: center;
+    padding-top:100px;
+}
+.wrkshp_itm{
+    background-color: white;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+.em_close{
+    font-size: 30px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+.em_close:hover{
+    cursor: pointer;
+}
 @media only screen and (max-width:900px){
     body{
         background-size:100% auto;

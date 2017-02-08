@@ -1,0 +1,28 @@
+/* 
+    Created on : 09-Feb-2017, 03:01:43
+    Author     : Vijayakumar
+*/
+.page-footr{
+    position: static;
+    bottom: 0px;
+}
+.wrk_det_cntnr{
+    margin:20px 7%;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.2);
+}
+.wrk_det_itm{
+    background-color: whitesmoke;
+   margin-bottom: 20px;
+    
+}
+.wrk_det_ans{
+    background-color: white;
+    padding: 20px;
+}
+.wrk_det_que{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    padding: 7px 20px;
+}
