@@ -1,0 +1,44 @@
+/* 
+    Created on : 13-Feb-2017, 12:04:39
+    Author     : Vijayakumar
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: segoe ui;
+    background-color: whitesmoke;
+}
+.pageLogo{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pageHeader{
+    text-align: center;
+}
+.formHoldr{
+    background-color: white;
+    margin:20px 10%;
+    box-shadow: 0px 10px 50px rgba(0,0,0,0.3);
+}
+.formTtl{
+    font-size: 30px;
+    padding: 10px 15px;
+    border-bottom: 5px solid royalblue;
+    margin: 0px 20px;
+}
+.formContItm{
+   margin-left: 25px;
+    padding: 15px;
+}
+.formItmTtl{
+    color: royalblue;
+}
+.formItmInp .inp_event{
+    width: 90%;
+    padding: 10px 15px;
+    font-size: 16px;
+}

@@ -100,7 +100,7 @@
     background-color: crimson;
 }
 .blue_bg .nav_drop_itm{
-     background-color: rgba(0,0,200,0.55);
+     background-color: rgba(0,0,200,0.75);
 }
 .yellow_bg .nav_drop_itm{
      background-color: rgba(256,136,0,0.9);
@@ -143,6 +143,22 @@ a{
     margin-top: 4px;
     margin-left: 10px;
     text-shadow: 2px 5px 7px rgba(0,0,0,0.5);
+}
+.navSubItmOutr{
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+.navDropSubTtl{
+    color: navy;
+    font-size: 14px;
+
+    background-color: navy;
+    color: white;
+    padding: 7px 25px 7px 10px;
+}
+.blue_bg .nav_drop_itm:hover{
+    background-color:navy;
 }
 @media only screen and (max-width:900px){
     .page_nav_holdr{
