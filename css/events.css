@@ -110,3 +110,23 @@ body{
     font-size: 14px;
     background-color: crimson;
 }
+@media only screen and (max-width:600px){
+    
+    .events_holdr{
+       padding-left: 0px;
+        padding-right: 0px;
+        background-size: 100%;
+        margin-top: 0px;
+        padding-top: 80px;
+    }
+    .events_itm{
+        width: 95%;
+        height: unset;
+         margin:10px 0px;
+    }
+    .events_name{
+       
+        margin-top: 75px;
+        padding-bottom: 20px;
+    }
+}
