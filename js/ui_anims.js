@@ -8,7 +8,7 @@ var totHts=8;
 $(window).load(function () {
    
     setInterval(init_ht,2500);
-    setTimeout(endLoad,1000);
+    endLoad();
 });
 
 function init_ht(){

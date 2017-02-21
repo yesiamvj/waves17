@@ -1,0 +1,112 @@
+/* 
+    Created on : 21-Feb-2017, 12:11:35
+    Author     : Vijayakumar
+*/
+body{
+    background-image: none !important;;
+}
+.page_cont_holder{
+     background: linear-gradient(11deg, #0fb8ad 0%, #fffdb 51%, #200008 75%) !important;;
+}
+.events_holdr{
+    padding: 5%;
+    padding-top: 300px;
+    background-repeat: no-repeat;
+    background-position:top center;
+    margin-top: -200px;
+}
+.events_cont_outr{
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow:0px 10px 10px rgba(0,0,0,0.5);
+    border-top: 1px solid blue;
+}
+.events_itm{
+    display: inline-flex;
+    width: 23%;
+    margin:10px 5px;
+    height: 200px;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    color: white;
+    position: relative;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+.sitm_2{
+     background: linear-gradient(141deg, #0fb8ad 0%, #4048db 51%, #20b5e8 75%);
+}
+.sitm_3{
+     background: linear-gradient(51deg, #80b8ff 0%, #0058db 51%, #0fffff 75%);
+}
+.sitm_4{
+     background: linear-gradient(151deg, #0fb8ad 0%, darkorange 51%, #4f00ff 75%);
+}
+.sitm_5{
+     background: linear-gradient(51deg, #0fb8ad 0%, #000000 51%, #ff3333 75%);
+}
+.sitm_6{
+     background: linear-gradient(71deg, #5fb80d 0%, #4f000f 51%, #0040df 75%);
+}
+.sitm_7{
+     background: linear-gradient(121deg, #00fff0 0%, #0f0f6f 51%, #003ff3 75%);
+}
+.events_itm:hover{
+    cursor: pointer;
+    animation:0.1s eveitm forwards;
+}
+@keyframes eveitm{
+    100%{
+         transform: scale(1.1);
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+        z-index: 10;
+        border-radius: 5px 0px;
+        font-size: 22px;
+    }
+}
+.evenets_cat_inr{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    padding-left: 15px;
+}
+.events_cat_ttl{
+    text-align:center;
+    padding: 35px 20px 55px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Lato;
+    color: royalblue;
+    background-color: royalblue;
+    color: white;
+    text-shadow: 5px 5px 2px rgba(0,0,0,0.5);
+    margin-bottom: -65px;
+}
+.events_itmInr{
+    width: 100%;
+}
+.events_name{
+    font-size: 18px;
+    padding: 10px;
+    text-align:center;
+    margin-top: 100px;
+    text-align: center;
+}
+.event_time{
+    display: inline-block;
+    background-color: crimson;
+    margin: 10px;
+    float: right;
+    position: absolute;
+    text-align: center;
+    background-color: orange;
+    right: 0px;
+}
+.event_date{
+    padding: 2px 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.event_mon{
+    padding:2px 15px;
+    font-size: 14px;
+    background-color: crimson;
+}

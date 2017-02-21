@@ -76,7 +76,7 @@ body{
     font-size: 50px;
     text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     font-family: segoe ui;
-    color: white;
+    color: #014B95;
 }
 #ht_1{
     display: block;
@@ -343,22 +343,22 @@ h1,h2,h3,h4,h5{
     background-color: darkorange;
 }
 .page-footr{
-    position: absolute;
-    z-index: 2;
-    bottom: -65px;
-    left: 0px;
-    right: 0px;
+    
     margin-top: 10px;
     background-color: navy;
     color: white;
-    padding: 100px 7% 20px 7%;
+    padding: 20px 7% 20px 7%;
 }
 .page_footrInr div{
     display: inline-block;
 }
 .pftr_right{
-    float: right;
+    
     font-size: 25px;
+    margin-left: 15px;
+    background-color:rgba(0,0,0,0.2);
+    padding:5px 25px 7px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
 }
 .pftr_right b{
     font-size: 14px;
@@ -456,7 +456,7 @@ h1,h2,h3,h4,h5{
 .fixLink{
     position: fixed;
     right: 2%;
-    bottom: 25px;
+    bottom: 45px;
     z-index: 100;
 }
 .fixLinkInr{
@@ -538,6 +538,11 @@ a .fixLinkItm:hover {
 .em_close:hover{
     cursor: pointer;
 }
+#ht_1{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+}
 @media only screen and (max-width:900px){
     body{
         background-size:100% auto;
@@ -561,13 +566,13 @@ a .fixLinkItm:hover {
         padding-right: 40px;
     }
     .page_high_txt .phtm_itm{
-        font-size: 20px;
+        font-size: 18px;
         color: navy;
         
     }
     .page_high_txt{
          background-color: rgba(256,256,256,0.95);
-         min-height: 80px;
+         min-height: 100px;
     }
     .pfloat_contnt{
         position:static;
@@ -607,5 +612,7 @@ a .fixLinkItm:hover {
     
     .pftr_right{
         float: none;
+        margin-left: 0px;
+        padding-bottom: 50px;
     }
 }
